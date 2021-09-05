@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Metropolis;
+    font-family: 'Poppins', sans-serif;
     border: none;
 }
 
@@ -291,8 +292,79 @@ section.options div.container div ul {
 }
 
 section.options div.container div ul li {
-    margin: 3px 10px;
+    margin: 3px 20px;
     color: grey;
     font-size: 1.1rem;
     font-weight: 100;
+}
+
+footer {
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+footer .logo-text {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+    margin-bottom: 10px !important;
+}
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+footer .footer-content h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+footer .footer-content p {
+    cursor: pointer;
+    color: grey;
+}
+footer .footer-content p:hover {
+    color: black;
+}
+.head1 a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    
+}
+.head1 a:hover {
+    background-color: black;
+    color: white;
+}
+.links {
+    display: flex;
+    margin-bottom: 10px;
+}
+.head1 a {
+    text-align: center;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head1 img {
+    max-width: 100px;
+    margin-bottom: 10px;
+    display: block;
+}
+footer .line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+}
+footer .credit {
+    font-size: 13px;
 }
